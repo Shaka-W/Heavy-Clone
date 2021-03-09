@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -36,13 +38,15 @@
     <div class="hero__tag">
       <p class="hero__tag-title">TOP STORY</p>
     </div>
-    <div class="hero__content">
+    <div class="container">
+      <div class="hero__content">
         <h1 class="hero__content-title">
           <a href="#" class="hero__content-link">UFC Phenom Says 'I Think I'm Done' After <br> 
           Horrible Battle With COVID-19
         </a>
         </h1>
-      <p class="hero__content-description">SPORTS &#183; 1 day ago</p>
+        <p class="hero__content-description">SPORTS &#183; 1 day ago</p>
+      </div>
     </div>
   </section>
   <section class="breaking-news">
@@ -106,10 +110,13 @@
         </div>
     </div>
   </section>
+  <div class="container">
+    <p class="more-news__tag">MORE FROM HEAVY</p>
+  </div>
+    
   <section class="more-news">
     <div class="container flex">
        <div class="more-news__content-wrapper">
-        <p class="more-news__tag">MORE FROM HEAVY</p>
         <div class="more-news__content-main">
           <div class="more-news__content">
             <h3 class="more-news__content-title">
@@ -138,7 +145,7 @@
           </div>
           <div class="more-news__content">
             <h3 class="more-news__content-title">
-             <a href="#" class="more-news__link">How to Watch A 10 Basketball
+             <a href="#" class="more-news__link">How to Watch A 10 Basketball 
               Tournament 2021 Without Cable</a> 
             </h3>
             <p class="more-news__content-description">2 hours ago</p>
@@ -219,7 +226,7 @@
             </h3>
             <p class="more-news__content-description">8 hours ago</p>
           </div>
-          <div class="more-news__content">
+          <div class="more-news__content more-news__content--pb">
             <h3 class="more-news__content-title">
              <a href="#" class="more-news__link">UFC's Jon Jones: 'Are you 
                Done With the Bulls***?'
@@ -227,7 +234,7 @@
             </h3>
             <p class="more-news__content-description">9 hours ago</p>
           </div>
-          <div class="more-news__content">
+          <div class="more-news__content more-news__content--pb">
             <h3 class="more-news__content-title">
              <a href="#" class="more-news__link">Who Did 'The Bachelor' Edit out 
                of the Season?
@@ -348,7 +355,7 @@
           </div>
         </div>
         <div class="more-news__content-main">
-          <div class="more-news__content">
+          <div class="more-news__content more-news__content--pb">
             <h3 class="more-news__content-title">
               <a href="#" class="more-news__link">'Bachelor in Paradise' Couple's Pregnancy Update: 'Next Week We'll Know'</a>
             </h3>
@@ -361,5 +368,67 @@
        </div>
       </div>
   </section>
+  <div class="button-container">
+    <a href="#" class="btn btn-more">Load More News 
+      <span class="material-icons">south</span></a>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <header class="footer__header">
+        <h2 class="footer__header-title">heavy.</h2>
+      </header>
+        <ul class="footer__items-main">
+          <li class="footer__item">
+            <a href="#" class="footer__link">About Heavy.com</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact Us</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Editorial Guidelines</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Privacy Policy</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Privacy Rights</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Terms Of Service</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Sitemap</a>
+          </li>
+        </ul>
+        <ul class="footer__items-sub">
+          <li class="footer__item">
+            <span class="footer__item-description">Stay Connected</span>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              <i class="far fa-envelope"></i>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              <i class="fas fa-rss"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer__copyright">Copyright &copy; 2021 Heavy, Inc. All rights reserved. Powered by 
+        <a href="#" class="footer__link">WordPress.com VIP<a>
+      </p>
+  </footer>
 </body>
 </html>
