@@ -1,2 +1,2 @@
 # Heavy Clone
-I recreated [Heavy News](https://www.heavy.com) homepage.
+I recreated the [Heavy News](https://www.heavy.com) homepage using HTML and SASS.
